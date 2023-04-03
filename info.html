@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>DZ-15</title>
+</head>
+<body>
+  <div class="container">
+    <div id="wrap2">
+      <header>
+        <p id="helloUser">Hello, emailuser@mail.ru! </p><span id="exit">exit</span>
+      </header>
+      <h3>User info</h3>
+      <form id="f2" action="" method="GET">
+        <div class="row">
+          <div class="col-6">
+            <div class="form-input">
+              <div class="form-title">
+                <label for="first-name">First Name:</label>
+                <small></small>
+              </div>
+              <input type="text" name="first-name">
+            </div>
+            <div class="form-input">
+              <div class="form-title">
+                <label for="years">Year of birth:</label>
+                <small></small>
+              </div>
+              <input type="text" name="years">
+            </div>
+            <div class="form-input">
+              <div class="form-title">
+                <label for="phone">Phone Number:</label>
+                <small></small>
+              </div>
+              <input type="text" name="phone">
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-input">
+              <div class="form-title">
+                <label for="last-name">Last Name:</label>
+                <small></small>
+              </div>
+              <input type="text" name="last-name">
+            </div>
+            <div class="form-input">
+              <div class="form-title">
+                <label for="gender">Gender:</label>
+                <small></small>
+              </div>
+              <select class="gender">
+                <option>male</option>
+                <option>female</option>
+              </select>
+            </div>
+            <div class="form-input">
+              <div class="form-title">
+                <label for="skype">Skype:</label>
+                <small></small>
+              </div>
+              <input type="text" name="skype">
+            </div>
+          </div>
+        </div>
+        <button type="submit">Save</button>
+      </form>
+      <p style="font-size: 12px; margin-top: 10px;">*Поля обязательны для заполнения</p>
+    </div>
+  </div>
+  <script src="info.js"></script>
+</body>
+</html>
